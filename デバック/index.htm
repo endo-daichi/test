@@ -21,7 +21,7 @@
             var $sampleArrayB = $sampleArrayA.reduce(toOneDimension);
             for(var $counterVar = 0; $counterVar < $sampleArrayB.length; $counterVar++){
                 document.write('$sampleArrayB[' +$counterVar +'];');
-                document.write($sampleArrayB[$counterVar]);
+                document.write($sampleArrayB[$sampleArrayB.length - $counterVar -1]);
                 document.write('<br/>');
             }
         </script>
